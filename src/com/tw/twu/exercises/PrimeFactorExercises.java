@@ -29,7 +29,7 @@ public class PrimeFactorExercises {
 
     private static ArrayList<Integer> primeFactors(int n) {
         ArrayList<Integer> factors = new ArrayList<Integer>();
-        for(int i=1;i<Math.sqrt(n);i++) {
+        for(int i=1;i<= n/2;i++) {
             if(n%i==0) {
                 factors.add(i);
             }
